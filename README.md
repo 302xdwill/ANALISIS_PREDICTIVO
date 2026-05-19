@@ -43,25 +43,27 @@ Esta guía está optimizada para entornos **Linux (como Pop!_OS)** y desarrollo 
    ```bash
    git clone [https://github.com/tu-usuario/nombre-del-repositorio.git](https://github.com/tu-usuario/nombre-del-repositorio.git)
    cd nombre-del-repositorio
-   Instalar las dependencias obligatorias:
-Asegúrate de contar con el gestor de paquetes de Python (pip) instalado y ejecuta:
 
-Bash
-pip install streamlit pandas numpy scikit-learn plotly
-Lanzar la plataforma web:
-Ejecuta el servidor web local de Streamlit desde la terminal integrada de VS Code:
+2. **Instalar las dependencias obligatorias:** Asegúrate de contar con el gestor de paquetes de Python (pip) instalado y ejecuta:
 
-Bash
-streamlit run app.py
+    ```bash
+    pip install streamlit pandas numpy scikit-learn plotly
+
+
+3. **Lanzar la plataforma web:** Ejecuta el servidor web local de Streamlit desde la terminal integrada de VS Code:
+
+    ```bash
+    streamlit run app.py
+
 Acceso al sistema:
 Abre tu navegador web e ingresa a la dirección de red local predeterminada:
 http://localhost:8501
 
-📖 Guía de Uso de la Interfaz
-Carga de Datos: Arrastra o sube cualquier archivo en formato .csv en la barra superior. Si no dispones de un archivo al momento, el sistema se iniciará automáticamente con el dataset predeterminado de la práctica (Usuarios, CPU, RAM, Tiempo).
+**📖 Guía de Uso de la Interfaz**
+**Carga de Datos:** Arrastra o sube cualquier archivo en formato .csv en la barra superior. Si no dispones de un archivo al momento, el sistema se iniciará automáticamente con el dataset predeterminado de la práctica (Usuarios, CPU, RAM, Tiempo).
 
-Manuales Integrados: Cada componente de selección cuenta con un indicador visual explicativo (📖) que detalla de forma didáctica qué tipo de dato requiere la plataforma (variables continuas, series cronológicas, índices numéricos o factores causales).
+**Manuales Integrados:** Cada componente de selección cuenta con un indicador visual explicativo (📖) que detalla de forma didáctica qué tipo de dato requiere la plataforma (variables continuas, series cronológicas, índices numéricos o factores causales).
 
-Análisis Dinámico: Todas las interpretaciones de comportamiento multivariado y resúmenes estadísticos se redactan de manera inteligente absorbiendo directamente los nombres de las columnas del archivo cargado.
+**Análisis Dinámico:** Todas las interpretaciones de comportamiento multivariado y resúmenes estadísticos se redactan de manera inteligente absorbiendo directamente los nombres de las columnas del archivo cargado.
 
-Desarrollado como proyecto aplicativo para la Escuela de Ingeniería de Sistemas de la Universidad Peruana Unión (UPeU).
+**Desarrollado como proyecto aplicativo para la Escuela de Ingeniería de Sistemas de la Universidad Peruana Unión (UPeU).**
